@@ -92,7 +92,9 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void bubbleSort() {
-		// Add your implementation here
+		if(temp=i)
+		i=j;
+		j=temp;// Add your implementation here
 	}
 
 	@Override
@@ -127,7 +129,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getStudentsWithMaxAvgMark() {
-		// Add your implementation here
+	        // Add your implementation here
 		return null;
 	}
 
